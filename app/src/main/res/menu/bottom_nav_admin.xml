@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/theloai"
+        android:title="Thể loại"
+        android:icon="@drawable/ic_theloai"/>
+    <item android:id="@+id/monan"
+        android:title="Món ăn"
+        android:icon="@drawable/ic_monan"/>
+    <item android:id="@+id/yeucau"
+        android:title="Yêu cầu"
+        android:icon="@drawable/ic_yeucau"/>
+    <item android:id="@+id/phanhoi"
+        android:title="Phản hồi"
+        android:icon="@drawable/ic_phanhoi"/>
+    <item android:id="@+id/taikhoan"
+        android:title="Tài khoản"
+        android:icon="@drawable/ic_settings"/>
+</menu>

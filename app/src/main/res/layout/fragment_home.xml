@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider_home"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="1000"
+        app:iss_delay="1000"
+        app:iss_text_align="CENTER"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_theloai_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_all_theloai"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+
+    <TextView
+        android:layout_below="@+id/image_slider_home"
+        android:id="@+id/txt_all_theloai"
+        android:text="Xem tất cả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="-8dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_below="@+id/rv_theloai_home"
+        android:id="@+id/txt_all_monan"
+        android:text="Xem tất cả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="-8dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_monan_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_all_monan"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "442567794257",
+    "firebase_url": "https://baitap-348bc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "baitap-348bc",
+    "storage_bucket": "baitap-348bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442567794257:android:34462d782ba3289b9ee270",
+        "android_client_info": {
+          "package_name": "com.example.hoctap3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzshyDapPRHm2HS3HZ3NEIq6fucrVGgdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
